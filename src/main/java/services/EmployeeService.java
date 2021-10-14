@@ -7,8 +7,8 @@ import javax.persistence.NoResultException;
 
 import constants.JpaConst;
 import models.Employee;
+import models.validators.EmployeeValidator;
 import utils.EncryptUtil;
-import validators.EmployeeValidator;
 import views.EmployeeConverter;
 import views.EmployeeView;
 
